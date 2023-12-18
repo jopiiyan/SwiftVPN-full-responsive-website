@@ -22,16 +22,16 @@ const Navbar = () => {
         <a href="index.html">
           <li className="p-4 border-b border-gray-600">Home</li>
         </a>
-        <a href="">
+        <a href="/">
           <li className="p-4 border-b border-gray-600">Company</li>
         </a>
-        <a href="">
+        <a href="/">
           <li className="p-4 border-b border-gray-600">Resources</li>
         </a>
-        <a href="">
+        <a href="/">
           <li className="p-4 border-b border-gray-600">About</li>
         </a>
-        <a href="">
+        <a href="/">
           <li className="p-4 border-b border-gray-600">Contact</li>
         </a>
       </ul>
@@ -43,7 +43,7 @@ const Navbar = () => {
       <div
         className={
           !nav
-            ? "fixed left-0 top-0 w-[30%] border-r h-full border-r-gray-900  bg-[#000300] ease-in-out duration-500 md:hidden"
+            ? "fixed left-0 top-0 w-[50%] border-r h-full border-r-gray-900  bg-[#000300] ease-in-out duration-500 md:hidden"
             : "fixed left-[-100%]  "
         }
       >

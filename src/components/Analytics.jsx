@@ -9,7 +9,7 @@ const Analytics = () => {
   return (
     <>
       <div className="w-full bg-white py-16 px-4">
-        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+        <div className="max-w-[1240px] w-full mx-auto grid md:grid-cols-2">
           <img src={Browsing} className="w-[90%] mx-auto my-4" alt="browsing" />
           <div className="flex flex-col justify-center">
             <p className=" text-[#7655fa] font-bold text-xl md:text-2xl ">
@@ -24,7 +24,7 @@ const Analytics = () => {
               tunnels traffic between your device and the remote server.
             </p>
             <button
-              className="p-3 border w-[200px] rounded-md font-medium border-none mx-auto border-r- bg-[black] mt-4 text-[#7655fa] 
+              className="p-3 border w-[200px] rounded-md font-medium border-none mx-auto bg-[black] mt-4 text-[#7655fa] 
          hover:bg-[#7655fa] hover:text-white transition-all ease-in-out duration-300"
             >
               Get Started

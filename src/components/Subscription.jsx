@@ -21,9 +21,15 @@ const Subscription = () => {
             Single User
           </h2>
           <h1 className="text-2xl md:text-3xl font-extrabold ">$2.12</h1>
-          <p className="border-b border-b-gray-500">1 Month</p>
-          <p className="border-b border-b-gray-500">Access to 50+ Countries</p>
-          <p className="border-b border-b-gray-500 ">Fast Connection</p>
+          <p className="border-b w-full text-center border-b-gray-500">
+            1 Month
+          </p>
+          <p className="border-b w-full border-b-gray-500">
+            Access to 50+ Countries
+          </p>
+          <p className="border-b w-full text-center border-b-gray-500 ">
+            Fast Connection
+          </p>
           <button className=" mt-6 font-bold bg-[#6c4fe3] w-full max-w-[90%] rounded-[30px] p-3 active:bg-[#553eb1] active:text-black">
             Subscribe
           </button>
@@ -40,9 +46,15 @@ const Subscription = () => {
             Single User
           </h2>
           <h1 className="text-2xl md:text-3xl font-extrabold">$9.90</h1>
-          <p className="border-b border-b-gray-500">1 Year</p>
-          <p className="border-b border-b-gray-500">Access to 100+ Countries</p>
-          <p className="border-b border-b-gray-500 ">Fast Connection</p>
+          <p className="border-b w-full text-center border-b-gray-500">
+            1 Year
+          </p>
+          <p className="border-b w-full text-center border-b-gray-500">
+            Access to 100+ Countries
+          </p>
+          <p className="border-b w-full text-center border-b-gray-500 ">
+            Fast Connection
+          </p>
           <button className=" mt-6 font-bold bg-[#6c4fe3] w-full max-w-[90%] rounded-[30px] p-3 active:bg-[#553eb1] active:text-black">
             Subscribe
           </button>
@@ -59,9 +71,15 @@ const Subscription = () => {
             Single User
           </h2>
           <h1 className="text-2xl md:text-3xl font-extrabold">$18.90</h1>
-          <p className="border-b border-b-gray-500">5 Years</p>
-          <p className="border-b border-b-gray-500">Access to 100+ Countries</p>
-          <p className="border-b border-b-gray-500 ">Fast Connection</p>
+          <p className="border-b w-full text-center border-b-gray-500">
+            5 Years
+          </p>
+          <p className="border-b w-full text-center border-b-gray-500">
+            Access to 100+ Countries
+          </p>
+          <p className="border-b w-full text-center border-b-gray-500 ">
+            Fast Connection
+          </p>
           <button className=" mt-6 font-bold bg-[#6c4fe3] w-full max-w-[90%] rounded-[30px] p-3 active:bg-[#553eb1] active:text-black">
             Subscribe
           </button>
