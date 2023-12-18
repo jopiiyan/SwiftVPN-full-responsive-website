@@ -6,22 +6,22 @@ const Hero = () => {
     <div className="text-white  ">
       <div className="max-w-[800px] w-full h-screen mx-auto mt-[-96px] sm:mt-[0] text-center flex flex-col justify-center">
         <p className="text-[#7655fa] font-bold p-2">Growing with SwiftVPN</p>
-        <h1 className="md:text-7xl text-4xl md:py-6 font-bold">
+        <h1 className="lg:text-7xl text-4xl md:py-6 font-bold">
           Grow with Our Fast & Secure VPN
         </h1>
         <div className="flex justify-center items-center ">
-          <p className="md:text-5xl sm:text-3xl text-xl font-bold py-4">
+          <p className="lg:text-5xl sm:text-3xl text-xl font-bold py-4">
             Fast, flexible, secure for
           </p>
           <Typed
-            className="md:text-5xl sm:text-3xl text-xl font-bold md:pl-4 pl-2"
+            className="lg:text-5xl sm:text-3xl text-xl font-bold md:pl-4 pl-2"
             strings={["Gaming", "Netflix", "Browsing", "More..."]}
             typeSpeed={120}
             backSpeed={140}
             loop
           />
         </div>
-        <p className="md:text-2xl text-xl font-bold text-gray-500 mt-2">
+        <p className="lg:text-2xl text-xl font-bold text-gray-500 mt-2">
           Feel save whenever you use any type of internet connection with
           SwiftVPN
         </p>
