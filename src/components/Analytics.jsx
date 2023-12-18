@@ -98,7 +98,7 @@ const Analytics = () => {
               type="text"
               placeholder="Redemption Code"
             />
-            <button className="font-bold bg-[#7655fa] w-full max-w-[30%] lg:max-w-[20%] rounded-[1px] hover:bg-[#6c4fe3] active:bg-[#553eb1] active:text-black ">
+            <button className="font-bold bg-[#7655fa] w-full max-w-[30%] lg:max-w-[20%]  hover:bg-[#6c4fe3] active:bg-[#553eb1] active:text-black ">
               Enter
             </button>
           </div>
