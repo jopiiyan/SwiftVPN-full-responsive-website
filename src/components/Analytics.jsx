@@ -92,13 +92,13 @@ const Analytics = () => {
           </h1>
           <div className="flex justify-center max-w-[500px] mt-6 md:mt-0">
             <input
-              className="flex-1 text-2xl outline-none text-start font-bold p-3 z-50 text-black"
+              className="flex-1 rounded-[0] text-2xl outline-none text-start font-bold p-3 z-50 text-black"
               value={value}
               onChange={(e) => setValue(e.target.value)}
               type="text"
               placeholder="Redemption Code"
             />
-            <button className="font-bold bg-[#7655fa] w-full max-w-[30%] lg:max-w-[20%]  hover:bg-[#6c4fe3] active:bg-[#553eb1] active:text-black ">
+            <button className="font-bold bg-[#7655fa] w-full max-w-[30%] lg:max-w-[20%] hover:bg-[#6c4fe3] active:bg-[#553eb1] active:text-black ">
               Enter
             </button>
           </div>
