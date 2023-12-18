@@ -16,7 +16,7 @@ const Subscription = () => {
             alt="single"
           ></IoCalendarNumber>
         }
-        <div className="flex flex-col mx-autojustify-center items-center ">
+        <div className="flex flex-col mx-auto justify-center items-center ">
           <h2 className="font-bold mx-auto text-2xl md:text-3xl">
             Single User
           </h2>
@@ -41,7 +41,7 @@ const Subscription = () => {
      "
       >
         <img src={Year} className=" w-[6.5rem]" alt="single" />
-        <div className="flex flex-col mx-autojustify-center items-center ">
+        <div className="flex flex-col mx-auto justify-center items-center ">
           <h2 className="font-bold mx-auto text-2xl md:text-3xl">
             Single User
           </h2>

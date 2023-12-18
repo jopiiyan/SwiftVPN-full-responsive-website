@@ -92,7 +92,7 @@ const Analytics = () => {
           </h1>
           <div className="flex justify-center max-w-[500px] w-[90%] mt-6 md:mt-0">
             <input
-              className="flex-1 rounded-[0] max-w-[300px lg:w-[100%] ] w-[80%] sm:w-full text-xl lg:text-2xl outline-none text-start font-bold p-3 z-50 text-black  "
+              className="flex-1 rounded-[0] max-w-[300px] w-[80%] sm:max-w-[400px] sm:w-full text-xl lg:text-2xl outline-none text-start font-bold p-3 z-50 text-black  "
               value={value}
               onChange={(e) => setValue(e.target.value)}
               type="text"
