@@ -90,7 +90,7 @@ const Analytics = () => {
           <h1 className="font-extrabold text-transparent text-3xl md:text-4xl bg-clip-text bg-gradient-to-r from-[#cfcfcf] to-purple-700">
             Enter Your Redemption Code
           </h1>
-          <div className="flex justify-center max-w-[500px] mt-6 md:mt-0">
+          <div className="flex justify-center max-w-[500px] w-[90%] mt-6 md:mt-0">
             <input
               className="flex-1 rounded-[0] text-2xl outline-none text-start font-bold p-3 z-50 text-black"
               value={value}
@@ -98,7 +98,7 @@ const Analytics = () => {
               type="text"
               placeholder="Redemption Code"
             />
-            <button className="font-bold bg-[#7655fa] w-full max-w-[30%] lg:max-w-[20%] hover:bg-[#6c4fe3] active:bg-[#553eb1] active:text-black ">
+            <button className="font-bold bg-[#7655fa] w-full px-6 lg:max-w-[30%] hover:bg-[#6c4fe3] active:bg-[#553eb1] active:text-black ">
               Enter
             </button>
           </div>
