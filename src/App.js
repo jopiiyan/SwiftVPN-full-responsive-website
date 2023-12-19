@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import Analytics from "./components/Analytics";
 import Subscription from "./components/Subscription";
 import Footer from "./components/Footer";
+import FAQ from "./components/FAQ";
+import AccordionFull from "./components/AccordionFull";
 
 const App = () => {
   return (
@@ -12,6 +14,7 @@ const App = () => {
       <Hero></Hero>
       <Analytics></Analytics>
       <Subscription></Subscription>
+      <AccordionFull title={"  Frequently Asked Questions"}></AccordionFull>
       <Footer></Footer>
     </div>
   );
